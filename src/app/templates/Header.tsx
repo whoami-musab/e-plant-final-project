@@ -9,8 +9,8 @@ const Header = () => {
     console.log(cart);
     return (
         <div className="header-page">
-            <header className="py-2 px-3 bg-green-500 text-white">
-            <nav>
+            <header className="py-2 bg-green-500 text-white">
+            <nav className="container mx-auto">
                 <ul className="flex items-center justify-between">
                     <li>
                         <Link
