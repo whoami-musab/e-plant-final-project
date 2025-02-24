@@ -84,7 +84,8 @@ const Products = () => {
     };
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="product-page bg-green-500/10">
+            <div className="container mx-auto p-4 ">
             <h1 className="text-2xl font-bold text-center mb-6">
                 Product Page
             </h1>
@@ -157,6 +158,7 @@ const Products = () => {
                     </li>
                 ))}
             </ul>
+        </div>
         </div>
     );
 };
